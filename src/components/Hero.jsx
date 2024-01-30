@@ -8,12 +8,12 @@ function Hero() {
         <img
           src="images/free.png"
           alt=""
-          className=" absolute left-0 sm:-left-[2%] h-[150px] sm:h-[220px] top-[2%] sm:top-[25%]"
+          className=" absolute left-3 sm:-left-[2%] h-[150px] sm:h-[220px] top-[2%] sm:top-[25%]"
         />
         <img
           src="images/winn.png"
           alt=""
-          className=" absolute right-0 sm:-right-[1%] h-[150px] sm:h-[220px] top-0 sm:top-[49%]"
+          className=" absolute right-0 sm:-right-[1%] h-[150px] sm:h-[220px] top-2 sm:top-[49%]"
         />
         <img
           src="images/chart.png"
@@ -27,7 +27,7 @@ function Hero() {
             className=" mx-auto h-[2rem] sm:h-[40px]"
           />
         </div>
-        <div className=" sm:pt-0 pt-[32%]">
+        <div className=" sm:pt-0 pt-[39%]">
           <img
             src="images/tredtext.png"
             alt=""
