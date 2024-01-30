@@ -13,7 +13,7 @@ function Hero() {
         <img
           src="images/winn.png"
           alt=""
-          className=" absolute right-0 sm:-right-[4%] h-[200px] sm:h-[320px] top-0 sm:top-[45%]"
+          className=" absolute right-0 sm:-right-[1%] h-[150px] sm:h-[220px] top-0 sm:top-[49%]"
         />
         <img
           src="images/chart.png"
