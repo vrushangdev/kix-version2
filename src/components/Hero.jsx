@@ -4,7 +4,7 @@ import ClickStart from "../components/ClickStart";
 function Hero() {
   return (
     <section className=" relative hero-main h-[100vh]  ">
-      <div className="container-wrapper relative z-50 flex items-center flex-col">
+      <div className="container-wrapper relative z-50 flex items-center flex-col ">
         <div className="py-3 sm:py-2">
           <img
             src="images/logo.png"
@@ -12,7 +12,7 @@ function Hero() {
             className=" mx-auto h-[2rem] sm:h-[40px]"
           />
         </div>
-        <div>
+        <div className="pt-[48%]">
           <img
             src="images/tredtext.png"
             alt=""
