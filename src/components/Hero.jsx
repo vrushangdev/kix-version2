@@ -52,13 +52,13 @@ function Hero() {
           />
         </div>
 
-        <div className=" ">
+        <div className=" sm:mt-0 mt-4 ">
           <ClickStart />
         </div>
 
-        <div>
+        <div className="">
           <h1 className="uppercase archo-black text-lg sm:text-3xl txt-s text-white text-center">
-           <img src="images/play.png" alt="" className=" mx-auto h-[50px]" />
+           <img src="images/play.png" alt="" className=" mx-auto h-full sm:h-[50px]" />
           </h1>
           <img
             src="images/100k.png"
