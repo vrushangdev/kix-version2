@@ -27,7 +27,7 @@ function Hero() {
             className=" mx-auto h-[2rem] sm:h-[40px]"
           />
         </div>
-        <div className=" sm:pt-0 pt-[39%]">
+        <div className=" sm:pt-0 pt-[53%]">
           <img
             src="images/tredtext.png"
             alt=""
@@ -52,12 +52,12 @@ function Hero() {
           />
         </div>
 
-        <div className="  ">
+        <div className="  mt-6 sm:mt-0 sm:mb-0 mb-3 ">
           <ClickStart />
         </div>
 
         <div className="">
-          <h1 className="uppercase archo-black text-xl sm:text-3xl txt-s text-white text-center tracking-[-0.11em]">
+          <h1 className="uppercase archo-black text-xl sm:text-3xl txt-s text-white text-center tracking-[-0.11em] sm:mb-0 mb-3">
             {/* <img src="images/play.png" alt="" className=" mx-auto h-full sm:h-[50px]" /> */}
             <span className="text-[#edd400]">PLAY </span> FOR A SHARE OF
           </h1>
