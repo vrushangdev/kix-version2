@@ -51,10 +51,8 @@
 }
 
 .hero-main{
-background-image:url('/public/bg-main.png') ;
-background-repeat: no-repeat;
-
-background-size: cover;
+  background: rgb(126,0,123);
+  background: linear-gradient(0deg, rgba(126,0,123,1) 0%, rgba(95,43,135,1) 50%, rgba(33,129,159,1) 100%);
 
 
 }
@@ -90,11 +88,12 @@ background-size: cover;
 @media (max-width:768px) {
 
   .main{
-    background-color: #bc179ed1;
-background-image:url('/public/images/home2.png') ;
+    background: rgb(126,0,123);
+background: linear-gradient(0deg, rgba(126,0,123,1) 0%, rgba(95,43,135,1) 50%, rgba(33,129,159,1) 100%);
+/* background-image:url('/public/images/home2.png') ;
 background-repeat: no-repeat;
 background-position-y: unset;
-background-size: cover;
+background-size: cover; */
 
 
 }

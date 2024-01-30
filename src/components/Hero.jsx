@@ -27,7 +27,7 @@ function Hero() {
         <div className=" relative ">
           <h1
             className="  text-white  lh-1_1 
-          sm:text-2xl text-lg  text-center"
+          sm:text-2xl text-lg  text-center " 
           >
             BUY & SELL FOOTBALLERS
           </h1>
