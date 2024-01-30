@@ -58,7 +58,7 @@ function Hero() {
 
         <div>
           <h1 className="uppercase archo-black text-lg sm:text-3xl txt-s text-white text-center">
-            <span className="text-[#edd400]">PLAY </span> FOR A SHARE OF
+           <img src="images/play.png" alt="" className=" mx-auto h-[50px]" />
           </h1>
           <img
             src="images/100k.png"
