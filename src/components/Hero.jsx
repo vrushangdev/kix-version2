@@ -3,12 +3,23 @@ import ClickStart from "../components/ClickStart";
 
 function Hero() {
   return (
-    <section className=" relative hero-main h-[100vh]  ">
-      
+    <section className=" relative  h-[100vh]  ">
       <div className="container-wrapper relative z-50 flex items-center flex-col ">
-      <img src="images/free.png" alt="" className=" absolute left-0 sm:-left-[8%] h-[200px] sm:h-[320px] top-0 sm:top-[23%]" />
-      <img src="images/winn.png" alt="" className=" absolute right-0 sm:-right-[4%] h-[200px] sm:h-[320px] top-0 sm:top-[45%]" />
-        <img src="images/chart.png" alt="" className=" absolute -z-[2] top-[45%] sm:top-[20%]" />
+        <img
+          src="images/free.png"
+          alt=""
+          className=" absolute left-0 sm:-left-[8%] h-[200px] sm:h-[320px] top-0 sm:top-[23%]"
+        />
+        <img
+          src="images/winn.png"
+          alt=""
+          className=" absolute right-0 sm:-right-[4%] h-[200px] sm:h-[320px] top-0 sm:top-[45%]"
+        />
+        <img
+          src="images/chart.png"
+          alt=""
+          className=" absolute -z-[2] top-[45%] sm:top-[20%]"
+        />
         <div className="py-3 sm:py-2">
           <img
             src="images/logo.png"
@@ -27,25 +38,33 @@ function Hero() {
         <div className=" relative ">
           <h1
             className="  text-white  lh-1_1 
-          sm:text-2xl text-lg  text-center " 
+          sm:text-2xl text-lg  text-center "
           >
             BUY & SELL FOOTBALLERS
           </h1>
         </div>
 
         <div>
-          <img src="/teen.png" alt="" className=" mx-auto h-auto sm:h-[300px]" />
+          <img
+            src="/teen.png"
+            alt=""
+            className=" mx-auto h-auto sm:h-[300px]"
+          />
         </div>
 
         <div className=" ">
           <ClickStart />
         </div>
 
-        <div> 
+        <div>
           <h1 className="uppercase archo-black text-lg sm:text-3xl txt-s text-white text-center">
-          <span className="text-[#edd400]">PLAY </span> FOR A SHARE OF
+            <span className="text-[#edd400]">PLAY </span> FOR A SHARE OF
           </h1>
-          <img src="images/100k.png" alt="" className=" mx-auto h-auto sm:h-[110px]" />
+          <img
+            src="images/100k.png"
+            alt=""
+            className=" mx-auto h-auto sm:h-[110px]"
+          />
         </div>
       </div>
     </section>
