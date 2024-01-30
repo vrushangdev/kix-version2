@@ -63,7 +63,7 @@ function Hero() {
           <img
             src="images/100k.png"
             alt=""
-            className=" mx-auto h-auto sm:h-[110px]"
+            className=" mx-auto h-auto sm:h-[105px]"
           />
         </div>
       </div>
