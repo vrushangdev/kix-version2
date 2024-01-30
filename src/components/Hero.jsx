@@ -8,7 +8,7 @@ function Hero() {
         <img
           src="images/free.png"
           alt=""
-          className=" absolute left-0 sm:-left-[8%] h-[200px] sm:h-[320px] top-0 sm:top-[23%]"
+          className=" absolute left-0 sm:-left-[8%] h-[150px] sm:h-[320px] top-[2%] sm:top-[23%]"
         />
         <img
           src="images/winn.png"
