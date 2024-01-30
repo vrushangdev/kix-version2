@@ -27,7 +27,7 @@ function Hero() {
             className=" mx-auto h-[2rem] sm:h-[40px]"
           />
         </div>
-        <div className=" sm:pt-0 pt-[50%]">
+        <div className=" sm:pt-0 pt-[49%]">
           <img
             src="images/tredtext.png"
             alt=""
@@ -52,7 +52,7 @@ function Hero() {
           />
         </div>
 
-        <div className="  mt-6 sm:mt-0 sm:mb-0 mb-3 ">
+        <div className="  mt-4 sm:mt-0 sm:mb-0 mb-3 ">
           <ClickStart />
         </div>
 
