@@ -6,19 +6,19 @@ import { Bars } from 'react-loader-spinner'
 import React, { useState, useEffect } from 'react';
 
 function Home() {
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-      const timer = setTimeout(() => {
-        setLoading(false);
-      }, 1000); // 1000 milliseconds = 1 second
+    // useEffect(() => {
+    //   const timer = setTimeout(() => {
+    //     setLoading(false);
+    //   }, 1000); // 1000 milliseconds = 1 second
   
-      // Clear the timeout if the component unmounts
-      return () => clearTimeout(timer);
-    }, []);
+    //   // Clear the timeout if the component unmounts
+    //   return () => clearTimeout(timer);
+    // }, []);
     return (
       <>
-    {loading && (
+    {/* {loading && (
           <div className="loader flex justify-center items-center bg-[#6dc5f8] main h-[100vh]">
             <Bars
               height="100"
@@ -30,8 +30,8 @@ function Home() {
               wrapperClass
             />
           </div>
-        )}
-        <div className={`main overflow-y-hidden ${loading ? 'hidden' : ''}`}>
+        )} */}
+        <div >
           <div className=" ">
             <Hero />
           </div>
