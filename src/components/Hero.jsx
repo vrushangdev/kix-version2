@@ -27,7 +27,7 @@ function Hero() {
             className=" mx-auto h-[2rem] sm:h-[40px]"
           />
         </div>
-        <div className=" sm:pt-0 pt-[49%]">
+        <div className=" sm:pt-0 pt-[42%]">
           <img
             src="images/tredtext.png"
             alt=""
