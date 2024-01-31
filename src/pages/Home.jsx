@@ -1,9 +1,8 @@
-import About from "../components/About";
-import BuySell from "../components/BuySell";
+
 
 import Hero from "../components/Hero";
-import { Bars } from 'react-loader-spinner'
-import React, { useState, useEffect } from 'react';
+
+
 
 function Home() {
     // const [loading, setLoading] = useState(true);
