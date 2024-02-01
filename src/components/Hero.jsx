@@ -58,8 +58,9 @@ function Hero() {
 
         <div className="">
           <h1 className="uppercase archo-black text-xl sm:text-3xl txt-s text-white text-center tracking-[-0.11em] sm:mb-0 mb-3">
-            {/* <img src="images/play.png" alt="" className=" mx-auto h-full sm:h-[50px]" /> */}
-            <span className="text-[#edd400]">PLAY </span> FOR A SHARE OF
+            {/* <img src="images/play.png" alt="" className=" mx-auto h-full sm:h-[50px]" /> */}  
+            {/* <span className="text-[#edd400]">PLAY </span> */}
+           FOR A SHARE OF
           </h1>
           <img
             src="images/100k.png"
